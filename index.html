@@ -21,18 +21,30 @@
   border: none;
 }
 
-#capa1{ position:absolute; z-index:1;
+@media only screen   
+and (max-width : 1024px) { 
+ 
+	#capa1{ position:absolute; z-index:1;
+		width: 100%;
+		padding: 2px 0;
+		text-align: center;
+		background-color: #56070C;
+		left:50px;
+	}
+	
+	h2 { font-size: 70% }
+}  
+
+#capa1 { position:absolute; z-index:1;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
   background-color: #56070C;
-  //left:25px;
  }
  
-#capa2{ position:absolute; z-index:0; } 
+#capa2{ position:absolute; z-index:0; }
 
-h1 {  color: #FFFFFF; }
-
+h2 { color: #FFFFFF; font-size: 185%; }
 </style>
 </head>
 <body>
