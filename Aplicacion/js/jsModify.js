@@ -4,7 +4,7 @@ function vinculo(){
 
 function fillData(){
 	var ruta="https://app.svetlananalytics.com/app/project/dfdc43d9-d7e6-46a0-9a12-8ba44a21326a/shared_dashboard/export_SvetlanrossAnalytics_ol7XnH6h.html#/SHARED_DASHBOARD#co=project&cid=dfdc43d9-d7e6-46a0-9a12-8ba44a21326a&psid=export_SvetlanrossAnalytics_ol7XnH6h.html&keyid=undefined&data=eyJyIjp7ImEiOnsiYWN0aXZlUGFnZUlkQ2hhbmdlZE1zIjoiMTY3NTM3OTg4MDM1MiJ9LCJpIjoiU0hBUkVEX0RBU0hCT0FSRCIsInMiOltdfX0=";
-	var iframe = document.getElementById("frame1");
+	var iframe = document.getElementById("frameIndex");
 	iframe.setAttribute("src", ruta);
 }
 	
