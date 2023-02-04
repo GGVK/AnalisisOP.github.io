@@ -1,8 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<script  type='text/javascript'>
+function vinculo(){
+	window.open('http://www.google.com.mx','640x480','toolbar=no,status=no,scrollbars=no,location=no,menubar=no,directories=no,width=640,height=480');
+}
+	
+document.addEventListener("contextmenu", function(event){
+        event.preventDefault();
+    }, false);
+
+document.addEventListener("copy", function(event){
+    // Change the copied text if you want
+    event.clipboardData.setData("text/plain", "No se permite copiar en esta página web");
+    
+    // Prevent the default copy action
+    event.preventDefault();
+}, false);
+	
+
+</script>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 <style>
+*{
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
+	
 .container {
   position: relative;
   width: 100%;
@@ -26,7 +56,7 @@ and (max-width : 1024px) {
  
 	#capa1{ position:absolute; z-index:1;
 		width: 100%;
-		padding: 2px 0;
+		padding: 9px 0;
 		text-align: center;
 		background-color: #56070C;
 		left: 55px;
@@ -37,11 +67,11 @@ and (max-width : 1024px) {
 
 #capa1 { position:absolute; z-index:1;
   width: 100%;
-  padding: 10px 0;
+  padding: 9px 0;
   text-align: center;
   background-color: #56070C;
   color: #FFFFFF; 
-  font-size: 185%;
+  font-size: 180%;
  }
  
 #capa2 { position:absolute; z-index:0; }
@@ -50,6 +80,8 @@ and (max-width : 1024px) {
 </head>
 <body>
 
+	
+<a href="#" onClick="javascript:vinculo();">pulsa aki</a>
 <div id="capa1">
 	<strong>Analisis Operacion Alterna CSH</strong>
 </div>
