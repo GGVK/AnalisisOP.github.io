@@ -31,22 +31,23 @@ and (max-width : 1024px) {
  
 	#capa1{ position:absolute; z-index:1;
 		width: 100%;
-		padding: 16.5px 0;
+		padding: 34px 0/*16.5px 0;*/
 		text-align: center;
-		background-color: rgb(94, 188, 229);
-		left: 55px;
+		background-color: #FFFFFF;/*rgb(94, 188, 229);*/
+		left: 0px; /*55px*/
 		font-size: 100%;
-		color: #56070C;
+		color: #FF8000; /* #56070C*/
 	}
 }
 
-#capa1 { position:absolute; z-index:1;
+#capa1 { position:absolute; 
+  z-index:1;
   width: 100%;
-  padding: 16.5px 0;
+  padding: 34px 0; /*16.5px 0*/
   text-align: center;
-  background-color: rgb(94, 188, 229);
-  color: #56070C; 
-  font-size: 100%;
+  background-color: #FFFFFF;  /*rgb(94, 188, 229);*/
+  color: #FF8000; /* #56070C*/
+  font-size: 120%;
  }
  
 #capa2 { position:absolute; z-index:0; }
